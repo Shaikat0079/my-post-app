@@ -3,7 +3,7 @@ import './App.css'
 import Posts from './Posts';
 
 const fetchPosts = async()=>{
-  const res = await fetch("https://jsonplaceholder.typicode.com/users")
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts")
   return res.json();
 }
 
