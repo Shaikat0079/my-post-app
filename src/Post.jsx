@@ -1,5 +1,5 @@
-export default function Post({post}){
-    const {title,body}= post;
+export default function Post({ post }) {
+    const { title, body } = post;
     return (
         <div className="postCard">
             <h4>Title: {title}</h4>
